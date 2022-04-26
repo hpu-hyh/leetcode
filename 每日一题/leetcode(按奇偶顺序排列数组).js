@@ -19,5 +19,5 @@ var sortArrayByParity = function(nums) {
             arr2.push(nums[i]);
         }
     }
-    return [...arr1,...arr2];
+    return [...arr1,...arr2]
 };
