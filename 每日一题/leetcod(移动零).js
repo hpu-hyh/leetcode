@@ -18,3 +18,4 @@
 var moveZeroes = function(nums) {
     nums.sort((a,b) => b? 0: -1)
 };//三元表达式
+moveZeroes([1,2,0,0,0,0,3,4,5])
